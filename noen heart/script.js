@@ -27,7 +27,7 @@ function createParticles() {
         particles.push({
             x: Math.random() * canvas.width,     // meel fog ayuu ka bilaabanayaa
             y: Math.random() * canvas.height,
-            targetX: centerX + pos.x * 15,       // halka uu isku xirmayo
+            targetX: centerX + pos.x * 15,       // mesha u isaga xiriyo
             targetY: centerY - pos.y * 15,
             size: Math.random() * 2 + 0.5,
             speed: Math.random() * 0.02 + 0.01,
@@ -55,4 +55,5 @@ function animate() {
 }
 
 createParticles();
+
 animate();r
